@@ -30,6 +30,7 @@ My technical experience includes Kotlin, Swift, JavaScript, React, React Native,
 - Developed production mobile features in Flutter by translating Figma designs into production release serving active users.
 
 ### Teaching Assistant | Washington University in St. Louis
+**Aug 2023 - May 2026**
 - Mentored 200+ students across web development, mobile, and computer engineering courses through office hours, code reviews, and one-on-one technical guidance.
 - Proposed and implemented a revised grading rubric adopted by course staff, improving evaluation consistency across assignments and exams involving React, JavaScript, Swift, and Arduino.
 
