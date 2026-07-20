@@ -1,10 +1,3 @@
-# Carl's website
-Thank you for coming to my site! Have a look around. 
-
-## Contact me
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cwong8751)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carl-wang-922a102b0/)
-
 ## About me
 I recently graduated from Washington University in St. Louis and am seeking full-time opportunities in full-stack, mobile and ai-powered product engineering. My experience spans mobile applications, full-stack systems, cloud services, and applied AI, with a focus on building practical products that solve real-world problems.
 
@@ -13,6 +6,10 @@ Expanding on my interest in making AI accessible through intuitive user-facing a
 As a Kotlin Developer for the Washington University School of Medicine, I built the Android version of Synaptrack, a clinical motor-skill assessment application, integrating motion sensor data and custom filtering algorithms to achieve high parity with iOS performance. I collaborated with clinicians and data scientists to support a 30-patient pilot study. Previously, as a Software Development Engineering Intern at Papertrail Auto, I contributed to Flutter and AWS development for a cross-platform automotive records application, implemented notification systems, and reduced application startup time by 50%.
 
 My technical experience includes Kotlin, Swift, JavaScript, React, React Native, Flutter, Express, PostgreSQL, AWS, WebSockets, and AI integration workflows. I enjoy building scalable software, working across disciplines, and creating technology that delivers measurable value to users.
+
+## Contact me
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cwong8751)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carl-wang-922a102b0/)
 
 ## Professional Experience
 
