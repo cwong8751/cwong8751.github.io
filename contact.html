@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			padding: 4rem 1.5rem;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1rem;
+			letter-spacing: 1px;
+			background-color: #f5f5e8;
+			background-image: repeating-linear-gradient(
+				to bottom,
+				transparent,
+				transparent 3px,
+				#e8e8d8 3px,
+				#e8e8d8 4px
+			);
+		}
+
+		.portfolio {
+			width: min(95%, 900px);
+			margin: 0 auto;
+		}
+
+		h1 {
+			margin: 0 0 2.5rem;
+			font-size: 2.5rem;
+			letter-spacing: 4px;
+			text-transform: lowercase;
+		}
+
+		h2 {
+			margin: 0 0 2rem;
+			font-size: 2rem;
+			letter-spacing: 3px;
+		}
+
+		article {
+			margin-bottom: 2rem;
+			padding: 1.5rem 1.75rem;
+			border-top: 15px solid transparent;
+			border-image: linear-gradient(to right, #ff7a1a, #cc3d00) 1;
+			border-radius: 0;
+			background: rgba(255, 255, 255, 0.7);
+			box-shadow: 0 2px 6px rgba(58, 140, 16, 0.12);
+		}
+
+		h3 {
+			margin: 0 0 0.5rem;
+			font-size: 1.25rem;
+			letter-spacing: 2px;
+		}
+
+		p {
+			line-height: 1.6;
+		}
+
+		article p {
+			margin: 0 0 1rem;
+			color: #cc3d00;
+		}
+
+		ul {
+			margin: 0;
+			padding-left: 1.5rem;
+			line-height: 1.6;
+		}
+
+		li + li {
+			margin-top: 0.75rem;
+		}
+
+		@media (max-width: 600px) {
+			body {
+				padding: 2.5rem 1rem;
+			}
+
+			h1 {
+				font-size: 2rem;
+			}
+
+			h2 {
+				font-size: 1.5rem;
+			}
+
+			article {
+				padding: 1.25rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="portfolio">
+		<h1>Carl Wang's portfolio</h1>
+
+		<section>
+			<h2>Resume and CV</h2>
+			<p>
+				<button type="button" onclick="window.open('#', '_blank')">Resume</button>
+				<button type="button" onclick="window.open('#', '_blank')">CV</button>
+			</p>
+		</section>
+
+		<section>
+			<h2>Contact me</h2>
+			<p>
+				<a href="https://github.com/cwong8751">
+					<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"
+						alt="GitHub">
+				</a>
+				<a href="https://www.linkedin.com/in/carl-wang-922a102b0/">
+					<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
+						alt="LinkedIn">
+				</a>
+			</p>
+		</section>
+	</main>
+</body>
+</html>

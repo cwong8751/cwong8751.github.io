@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>experience</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			padding: 4rem 1.5rem;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1rem;
+			letter-spacing: 1px;
+			background-color: #f5f5e8;
+			background-image: repeating-linear-gradient(
+				to bottom,
+				transparent,
+				transparent 3px,
+				#e8e8d8 3px,
+				#e8e8d8 4px
+			);
+		}
+
+		.portfolio {
+			width: min(95%, 900px);
+			margin: 0 auto;
+		}
+
+		h1 {
+			margin: 0 0 2.5rem;
+			font-size: 2.5rem;
+			letter-spacing: 4px;
+			text-transform: lowercase;
+		}
+
+		h2 {
+			margin: 0 0 2rem;
+			font-size: 2rem;
+			letter-spacing: 3px;
+		}
+
+		article {
+			margin-bottom: 2rem;
+			padding: 1.5rem 1.75rem;
+			border-top: 15px solid transparent;
+			border-image: linear-gradient(to right, #ff7a1a, #cc3d00) 1;
+			border-radius: 0;
+			background: rgba(255, 255, 255, 0.7);
+			box-shadow: 0 2px 6px rgba(58, 140, 16, 0.12);
+		}
+
+		h3 {
+			margin: 0 0 0.5rem;
+			font-size: 1.25rem;
+			letter-spacing: 2px;
+		}
+
+		p {
+			line-height: 1.6;
+		}
+
+		article p {
+			margin: 0 0 1rem;
+			color: #cc3d00;
+		}
+
+		ul {
+			margin: 0;
+			padding-left: 1.5rem;
+			line-height: 1.6;
+		}
+
+		li + li {
+			margin-top: 0.75rem;
+		}
+
+		@media (max-width: 600px) {
+			body {
+				padding: 2.5rem 1rem;
+			}
+
+			h1 {
+				font-size: 2rem;
+			}
+
+			h2 {
+				font-size: 1.5rem;
+			}
+
+			article {
+				padding: 1.25rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="portfolio">
+		<h1>Carl Wang's portfolio</h1>
+		<h2>Professional Experience</h2>
+
+		<article>
+			<h3>Full Stack Engineering Intern | ASL Aspire</h3>
+			<p><strong>June 2026 - August 2026</strong></p>
+			<ul>
+				<li>Developed a custom assignment creator for teachers in Figma, React and Python end to end.</li>
+				<li>Implemented complete video upload pipeline using Flask, Amazon S3 and Cloudfront, with AI assisted and human in the loop moderation.</li>
+			</ul>
+			<h3>Software Developer | Washington University in St. Louis School of Medicine</h3>
+			<p><strong>May 2025 - Present</strong></p>
+			<ul>
+				<li>Led development of a 10 Android task-module framework for SynapTrack, a clinical research application used to assess motor-function changes in spinal disease patients, independently rebuilding task workflows from the existing iOS implementation using Kotlin.</li>
+				<li>Achieved cross-platform sensor parity within 10–20% of iOS baseline through engineered motion-processing pipelines using Kalman and low-pass filtering to replicate proprietary iOS CoreMotion sensor outputs.</li>
+				<li>Hosted a 30 patient pilot study and supported continuous maintenance of the Android platform through production releases on Google Play.</li>
+				<li>Built a React Native health dashboard consuming Health Connect data via a Kotlin bridge layer, displaying real-time patient metrics within the clinical application.</li>
+			</ul>
+		</article>
+
+		<article>
+			<h3>Software Development Intern | Papertrail Inc.</h3>
+			<p><strong>June 2024 - August 2024</strong></p>
+			<ul>
+				<li>Resolved performance bottlenecks, reducing cold-start time by 50% while addressing user-reported defects in production releases.</li>
+				<li>Built cloud-based app push notifications using AWS Lambda and S3, enabling scalable delivery of application updates, engagement remainders and user communications.</li>
+				<li>Developed production mobile features in Flutter by translating Figma designs into production release serving active users.</li>
+			</ul>
+		</article>
+
+		<article>
+			<h3>Teaching Assistant | Washington University in St. Louis</h3>
+			<p><strong>Aug 2023 - May 2026</strong></p>
+			<ul>
+				<li>Mentored 200+ students across web development, mobile, and computer engineering courses through office hours, code reviews, and one-on-one technical guidance.</li>
+				<li>Proposed and implemented a revised grading rubric adopted by course staff, improving evaluation consistency across assignments and exams involving React, JavaScript, Swift, and Arduino.</li>
+			</ul>
+		</article>
+	</main>
+</body>
+</html>

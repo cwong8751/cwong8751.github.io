@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interaction</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1.5rem;
+			letter-spacing: 2px;
+			background-color: #f5f5e8;
+			background-image: repeating-linear-gradient(
+				to bottom,
+				transparent,
+				transparent 3px,
+				#e8e8d8 3px,
+				#e8e8d8 4px
+			);
+		}
+
+		.button-container {
+			display: flex;
+			flex-direction: row;
+			gap: 1rem;
+			width: min(95%, 1100px);
+		}
+
+		.portfolio {
+			width: min(95%, 1100px);
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0 0 2rem;
+			font-size: 2.5rem;
+			letter-spacing: 4px;
+			text-transform: lowercase;
+		}
+
+		.introduction {
+			margin: 2rem auto 0;
+			max-width: 900px;
+			font-size: 1rem;
+			line-height: 1.6;
+			letter-spacing: 5px;
+		}
+
+		button {
+			flex: 1;
+			height: 100px;
+			border: 0;
+			border-radius: 8px;
+			color: #fff;
+			background: linear-gradient(to bottom, #6abf2e, #3a8c10);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1.5rem;
+			letter-spacing: 10px;
+			cursor: pointer;
+			transition: background 0.2s ease, transform 0.2s ease;
+		}
+
+		button:hover,
+		button:focus-visible {
+			filter: brightness(1.1);
+			transform: translateY(-2px);
+		}
+
+		button:nth-child(2) {
+			background: linear-gradient(to bottom, #ff7a1a, #cc3d00);
+		}
+
+		button:nth-child(3) {
+			background: linear-gradient(to bottom, #219bff, #0052aa);
+		}
+	</style>
+</head>
+<body>
+		<main class="portfolio">
+			<h1>Carl Wang's portfolio</h1>
+			<div class="button-container">
+				<button type="button" onclick="window.open('about.html')">About Me</button>
+				<button type="button" onclick="window.open('experience.html')">Professional Experience</button>
+				<button type="button" onclick="window.open('contact.html')">Resume and Contact</button>
+			</div>
+			<p class="introduction">Hello, I'm Carl, first year graduate student at University of Illinois studying computer science. My interests are in AI and healthcare, user centered experiences. I am currently seeking summer 27 software internships.</p>
+		</main>
+</body>
+</html>
